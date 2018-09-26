@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<title>Lexus Connect</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=El+Messiri|Noto+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Viga" rel="stylesheet">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+.w3-top{
+  background: rgba(25, 25, 25, .4);
+  color: white;
+}
+#myVideo {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color:white;
+    width: 100%;
+    height: 100%;
+}
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+.bgimg-2 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("/images/driver.jpg"); /* W3C */
+}
+.bgimg-3 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("/images/car.jpg"); /* W3C */
+}
+.bgimg-4 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("/images/coach.jpg"); /* W3C */
+}
+.w3-bar .w3-button {
+    padding: 16px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.one{
+  transition-property: width;
+  transition-duration: 0.5s;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button"><img style="opacity:1;" class="w3-image" src="/images/logo_lexus.PNG" alt="Logo" width=50% height=50%></a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right">
+      <a href="#about" class="w3-bar-item w3-button">LEXUS CONNECT</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fas fa-screwdriver"></i> FEATURES</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with full-height image -->
+<video autoplay muted loop id="myVideo">
+  <source src="video/final-video.mp4" type="video/mp4">
+</video>
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-black" style="padding:48px; padding-left: 100px;">
+    <span class="w3-jumbo" style="display:block;line-height:120%;"><b>Smarter.<br/>Safer.<br/>Driving.<br/>Everywhere.</span></b><br/>
+    <span class="w3-large" style="display:block;line-height:140%;"><b>Connect your car to Lexus Connect <br/>to make driving smarter, safer and more affordable.</b></span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off"><b>Learn more and start today</b></a></p>
+  </div>
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px; padding-left: 100px;">
+    <i class="fab fa-facebook-official w3-hover-opacity"></i>
+    <i class="fab fa-instagram w3-hover-opacity"></i>
+    <i class="fab fa-snapchat w3-hover-opacity"></i>
+    <i class="fab fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fab fa-twitter w3-hover-opacity"></i>
+    <i class="fab fa-linkedin w3-hover-opacity"></i>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:48px 16px" id="about">
+  <h1 class="w3-center w3-jumbo w3-text-blue" style="font-family: 'Noto Sans', sans-serif;">Introducing Lexus Connect</h1>
+  <p class="w3-center w3-large">When you and your family are safe, life is good. We help you effortlessly manage your safety, your family safety and your car's condition. Our new lightning life360 solution gives you the fastest and the most complete way to ensure your safety and your family safety wherever you go. Life360 keeps you and your family safe.</p>
+</div>
+
+<div class="bgimg-2 w3-container w3-light-grey" style="padding:15px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m5">
+      <p style="font-family: 'Viga', sans-serif;" class="w3-text-blue"><i class="fas fa-shield-alt"></i> LIFE360 DRIVER PROTECT</p>
+      <h1 style="font-family: 'Viga', sans-serif;color:#666666;">Driving piece of mind for the entire familiy</h1>
+      <p style="font-family: 'El Messiri', sans-serif;"><i class="far fa-check-square w3-text-blue"></i> Crash detection and emergency response</p>
+      <p style="font-family: 'El Messiri', sans-serif;"><i class="far fa-check-square w3-text-blue"></i> Driving analysis and weekly report</p>
+      <p style="font-family: 'El Messiri', sans-serif;"><i class="far fa-check-square w3-text-blue"></i> 24/7 driver care support</p>
+      <p style="font-family: 'El Messiri', sans-serif;"><i class="far fa-check-square w3-text-blue"></i> Piece of mind with multi-driver profile</p>
+      <p><a href="#work" class="w3-button w3-blue">Learn More</a></p>
+    </div>
+  </div>
+</div>
+
+<div class="bgimg-3 w3-container w3-light-grey" style="padding:15px 16px; margin-top:15px;">
+  <div class="w3-row-padding">
+    <div class="w3-col m5 w3-right">
+      <p style="font-family: 'Viga', sans-serif;" class="w3-text-blue"><i class="fas fa-shield-alt"></i> LIFE360 CAR PROTECT</p>
+      <h1 style="font-family: 'Viga', sans-serif;color:#666666;">Your car is protected anywhere</h1>
+      <p style="font-family: 'El Messiri', sans-serif;"><i class="far fa-check-square w3-text-blue"></i> 24/7 vehicle theft management in Malaysia</p>
+      <p style="font-family: 'El Messiri', sans-serif;"><i class="far fa-check-square w3-text-blue"></i> Locate my car anywhere</p>
+      <p style="font-family: 'El Messiri', sans-serif;"><i class="far fa-check-square w3-text-blue"></i> Service maintenance and reminder protocol</p>
+      <p style="font-family: 'El Messiri', sans-serif;"><i class="far fa-check-square w3-text-blue"></i> Seamless submission and claim follow up</p>
+      <p style="font-family: 'El Messiri', sans-serif;"><i class="far fa-check-square w3-text-blue"></i> Car&#146;s condition monitoring</p>
+      <p style="font-family: 'El Messiri', sans-serif;"><i class="far fa-check-square w3-text-blue"></i> Breakdown in Malaysia</p>
+      <p><a href="#work" class="w3-button w3-blue">Learn More</a></p>
+    </div>
+  </div>
+</div>
+
+<div class="bgimg-4 w3-container w3-light-grey" style="padding:15px 16px; margin-top:15px;">
+  <div class="w3-row-padding">
+    <div class="w3-col m5">
+      <p style="font-family: 'Viga', sans-serif;" class="w3-text-blue"><i class="fas fa-shield-alt"></i> LIFE360 DRIVING PARTNER</p>
+      <h1 style="font-family: 'Viga', sans-serif;color:#666666;">A driving coach for you</h1>
+      <p style="font-family: 'El Messiri', sans-serif;"><i class="far fa-check-square w3-text-blue"></i> Driving assessment</p>
+      <p style="font-family: 'El Messiri', sans-serif;"><i class="far fa-check-square w3-text-blue"></i> Rewards</p>
+      <p style="font-family: 'El Messiri', sans-serif;"><i class="far fa-check-square w3-text-blue"></i> Prevention & tips</p>
+      <p style="font-family: 'El Messiri', sans-serif;"><i class="far fa-check-square w3-text-blue"></i> Trip review</p>
+      <p style="font-family: 'El Messiri', sans-serif;"><i class="far fa-check-square w3-text-blue"></i> FAQs</p>
+      <p><a href="#work" class="w3-button w3-blue">Learn More</a></p>
+    </div>
+  </div>
+</div>
+
+<!-- Techno Section -->
+<div class="w3-container" style="padding:48px 16px" id="team">
+  <h1 class="w3-center w3-xxlarge w3-text-blue" style="font-family: 'Noto Sans', sans-serif;">Connect and Control</h1>
+  <div class="clearfix" style="width:1454px;margin:0 auto;">
+    <div style="float:left;width:600px;">
+      <div class="w3-right" onmouseover="caretin(this)" onmouseout="caretout(this)" id="ds" style="width:80%;height:150px;">
+        <div class="one" style="float:right;width:20%;">
+          <span class="w3-left" style="padding-top:21px;"> <i class="fas fa-angle-right" style="font-size:32px;display:none;"></i></span>
+        </div>
+        <div style="float:right;width:20%;">
+          <h2 class="w3-center"> <i class="fas fa-ambulance"></i></h2>
+        </div>
+        <div style="float:right;width:60%;">
+          <h2 style="font-family: 'El Messiri', sans-serif;text-align: right;"> Drive safer</h2>
+          <p style="margin-top: -15px;text-align: right;"> Equip your car with emergency call, crash detection and multi-driver profile features</p>
+        </div>
+      </div>
+      <div class="w3-right" onmouseover="caretin(this)" onmouseout="caretout(this)" id="tc" style="width:80%;height:150px;">
+        <div class="one" style="float:right;width:20%;">
+          <span class="w3-left" style="padding-top:21px;"> <i class="fas fa-angle-right" style="font-size:32px;display:none;"></i></span>
+        </div>
+        <div style="float:right;width:20%;">
+          <h2 class="w3-center"> <i class="fas fa-cogs"></i></h2>
+        </div>
+        <div style="float:right;width:60%;">
+          <h2 style="font-family: 'El Messiri', sans-serif;text-align: right;"> Take control</h2>
+          <p style="margin-top: -15px;text-align: right;"> Remote-vehicle diagnostics, predictive/automated maintenance and service booking</p>
+        </div>
+      </div>
+      <div class="w3-right" onmouseover="caretin(this)" onmouseout="caretout(this)" id="sm" style="width:80%;height:150px;">
+        <div class="one" style="float:right;width:20%;">
+          <span class="w3-left" style="padding-top:21px;"> <i class="fas fa-angle-right" style="font-size:32px;display:none;"></i></span>
+        </div>
+        <div style="float:right;width:20%;">
+          <h2 class="w3-center"> <i class="fas fa-hand-holding-usd"></i></h2>
+        </div>
+        <div style="float:right;width:60%;">
+          <h2 style="font-family: 'El Messiri', sans-serif;text-align: right;"> Save money & enjoy VIP events</h2>
+          <p style="margin-top: -15px;text-align: right;"> Save money & be entertained thanks to our reward and loyalty program</p>
+        </div>
+      </div>
+    </div>
+    <div style="float:left;width:254px;position: relative;top:0px;left:5px">
+      <img src="/images/app1.PNG" alt="app1">
+      <img src="/images/app2.PNG" alt="app2" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overlds">
+      <img src="/images/app3.PNG" alt="app3" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overlds">
+      <img src="/images/app4.PNG" alt="app4" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overldm">
+      <img src="/images/app5.PNG" alt="app5" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overldm">
+      <img src="/images/app6.PNG" alt="app6" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overldm">
+      <img src="/images/app7.PNG" alt="app7" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overldm">
+      <img src="/images/app8.PNG" alt="app8" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overldm">
+      <img src="/images/app9.PNG" alt="app9" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overldm">
+      <img src="/images/app10.PNG" alt="app10" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overldm">
+      <img src="/images/app11.PNG" alt="app11" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overltc">
+      <img src="/images/app12.PNG" alt="app12" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overltc">
+      <img src="/images/app13.PNG" alt="app13" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overltc">
+      <img src="/images/app14.PNG" alt="app14" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overltc">
+      <img src="/images/app15.PNG" alt="app15" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overltc">
+      <img src="/images/app16.PNG" alt="app16" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overltc">
+      <img src="/images/app17.PNG" alt="app17" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overlbp">
+      <img src="/images/app18.PNG" alt="app18" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overlsm">
+      <img src="/images/app19.PNG" alt="app19" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overlsm">
+      <img src="/images/app20.PNG" alt="app20" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overlsm">
+      <img src="/images/app21.PNG" alt="app21" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overlsm">
+      <img src="/images/app22.PNG" alt="app22" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overlsm">
+      <img src="/images/app23.PNG" alt="app23" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overlsm">
+      <img src="/images/app24.PNG" alt="app24" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overlsm">
+      <img src="/images/app25.PNG" alt="app25" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overlsm">
+      <img src="/images/app26.PNG" alt="app26" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overlsm">
+      <img src="/images/app27.PNG" alt="app27" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overlba">
+      <img src="/images/app28.PNG" alt="app28" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overlba">
+      <img src="/images/app29.PNG" alt="app29" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overlba">
+      <img src="/images/app30.PNG" alt="app30" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overlba">
+      <img src="/images/app31.PNG" alt="app31" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overlba">
+      <img src="/images/app32.PNG" alt="app32" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overlba">
+      <img src="/images/app33.PNG" alt="app33" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overlba">
+      <img src="/images/app34.PNG" alt="app34" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overlba">
+      <img src="/images/app35.PNG" alt="app35" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overlba">
+      <img src="/images/app36.PNG" alt="app36" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overlba">
+      <img src="/images/app37.PNG" alt="app37" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overlba">
+      <img src="/images/app38.PNG" alt="app38" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overlba">
+      <img src="/images/app39.PNG" alt="app39" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overlba">
+      <img src="/images/app40.PNG" alt="app40" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overlba">
+      <img src="/images/app41.PNG" alt="app41" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overlba">
+      <img src="/images/app42.PNG" alt="app42" style="position: absolute;top:26px;left:14px;opacity: 0;" class="overlba">
+    </div>
+    <div style="float:left;width:600px;">
+      <div class="w3-left" onmouseover="caretin(this)" onmouseout="caretout(this)" id="dm" style="width:80%;height:150px;">
+        <div class="one" style="float:left;width:20%;">
+          <span class="w3-right" style="padding-top:21px;"> <i class="fas fa-angle-left" style="font-size:32px;display:none;"></i></span>
+        </div>
+        <div style="float:left;width:20%;">
+          <h2 class="w3-center"> <i class="fas fa-car"></i></h2>
+        </div>
+        <div style="float:left;width:60%;">
+          <h2 style="font-family: 'El Messiri', sans-serif;text-align: left;"> Drive smarter</h2>
+          <p style="margin-top: -15px;text-align: left;"> Review your trips, locate your car, review your driving behavior and get some driving tips</p>
+        </div>
+      </div>
+      <div class="w3-left" onmouseover="caretin(this)" onmouseout="caretout(this)" id="bp" style="width:80%;height:150px;">
+        <div class="one" style="float:left;width:20%;">
+          <span class="w3-right" style="padding-top:21px;"> <i class="fas fa-angle-left" style="font-size:32px;display:none;"></i></span>
+        </div>
+        <div style="float:left;width:20%;">
+          <h2 class="w3-center"> <i class="fas fa-shield-alt"></i></h2>
+        </div>
+        <div style="float:left;width:60%;">
+          <h2 style="font-family: 'El Messiri', sans-serif;text-align: left;"> Be protected</h2>
+          <p style="margin-top: -15px;text-align: left;"> Enhance your protection with a 24/7 vehicle theft management and breakdown cover in Malaysia</p>
+        </div>
+      </div>
+      <div class="w3-left" onmouseover="caretin(this)" onmouseout="caretout(this)" id="ba" style="width:80%;height:150px;">
+        <div class="one" style="float:left;width:20%;">
+          <span class="w3-right" style="padding-top:21px;"> <i class="fas fa-angle-left" style="font-size:32px;display:none;"></i></span>
+        </div>
+        <div style="float:left;width:20%;">
+          <h2 class="w3-center"> <i class="fas fa-car-crash"></i></h2>
+        </div>
+        <div style="float:left;width:60%;">
+          <h2 style="font-family: 'El Messiri', sans-serif;text-align: left;"> Be aware</h2>
+          <p style="margin-top: -15px;text-align: left;"> Follow up effortlessly your claims, easy access to information such as what to do in case of accidents, FAQ's</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="w3-container w3-light-grey" style="padding:40px 16px" id="contact">
+  <h3 class="w3-center">Start your journey</h3>
+</div>
+
+<div class="w3-container" style="padding:40px 16px" id="contact">
+  <div class="w3-half w3-center">
+    <h2>Get the app to start your customer journey. <br/>See you soon!</h2>
+    <img src="/images/app.PNG" alt="app">
+    <p> Visit us at <span class="w3-text-blue">Borneo Motors </span>. Open daily from 9AM-9PM</p>
+  </div>
+  <div class="w3-half w3-center">
+    <img src="/images/location.PNG" alt="location">
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fab fa-facebook-official w3-hover-opacity"></i>
+    <i class="fab fa-instagram w3-hover-opacity"></i>
+    <i class="fab fa-snapchat w3-hover-opacity"></i>
+    <i class="fab fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fab fa-twitter w3-hover-opacity"></i>
+    <i class="fab fa-linkedin w3-hover-opacity"></i>
+  </div>
+</footer>
+
+<!-- Add Google Maps -->
+<script>
+
+function caretin(x){
+  x.children[0].children[0].children[0].style.display = "block";
+  x.children[0].style.width ='8%';
+  id=x.getAttribute('id');
+  myIndex = 0;
+  if(trigger==0){
+    slide="overl"+id;
+    carousel("overl"+id);
+    trigger=1;
+  }
+}
+function caretout(x){
+  x.children[0].children[0].children[0].style.display = "none";
+  x.children[0].style.width = "20%";
+  id=x.getAttribute('id');
+  y=document.getElementsByClassName("overl"+id);
+  y[myIndex-1].style.opacity = 0;
+  clearTimeout(mySlideShow);
+  trigger=0;
+}
+var myIndex;
+var trigger=0;
+var slide=";"
+var mySlideShow;
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName(slide);
+    for (i = 0; i < x.length; i++) {
+       x[i].style.opacity = 0;
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.opacity = 1;
+    mySlideShow=setTimeout(carousel, 1000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>
